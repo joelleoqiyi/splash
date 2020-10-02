@@ -1,0 +1,70 @@
+body {
+    height: auto;
+    width: auto;
+}
+
+.navbar-brand {
+    font-size: 3em;
+}
+
+.navbar-text {
+    border-left: 15%;
+    padding: 10%;
+    border: 2px solid #84b5fc;
+    min-width: 200px;
+    min-height: 50px;
+}
+
+.light-grey {
+    color: #8CD3D3D3;
+}
+
+.dark-grey {
+    color: #F7D3D3D3;
+}
+
+.second-navbar {
+    width: auto;
+    min-height: 60px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.typing-format {
+    border-right: 10px;
+}
+
+.main {
+    width: auto;
+    height: 1000px;
+    background: #383838;
+    border-radius: 40px;
+    border: 1.5em solid white;
+    border-top: 0.5%;
+    padding: 3em 2em;
+}
+
+.entry-dropdown {
+    position: absolute;
+    right: 1%;
+    bottom: 10%;
+}
+
+.hidden {
+    display: none;
+}
+
+.additionalInputCard {
+    display: flex;
+    justify-content: center;
+}
+
+.advanceButton {
+    width: 20%;
+}
